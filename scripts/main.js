@@ -199,6 +199,8 @@ $(function() {
 		}
 	});
 
+	$(".one-line").jvFloat();
+
 	appUtil.preloadImage([
 		'img/btn-click.png',
 		'img/btn-hover.png',

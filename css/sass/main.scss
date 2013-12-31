@@ -727,6 +727,32 @@ body {
 	}
 }
 
+.jvFloat {
+	display: block;
+	margin-top: 0;
+}
+
+.jvFloat .placeHolder.active {
+	display: block;
+	visibility: visible;
+	-webkit-transform: translate(0, 0em);
+	-moz-transform: translate(0, 0em);
+	-o-transform: translate(0, 0em);
+	-ms-transform: translate(0, 0em);
+	transform: translate(0, 0em);
+	-webkit-transition: -webkit-transform 100ms, opacity 120ms, visibility 120ms;
+	transition: transform 100ms, opacity 120ms, visibility 120ms;
+	opacity: 1;
+}
+
+.jvFloat .placeHolder {
+	-webkit-transform: translate(0, 1em);
+	-moz-transform: translate(0, 1em);
+	-o-transform: translate(0, 1em);
+	-ms-transform: translate(0, 1em);
+	transform: translate(0, 1em);
+}
+
 @media screen and (max-width: 1200px) {
 	body {
 		font-size: 16px;
