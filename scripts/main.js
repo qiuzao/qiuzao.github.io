@@ -43,12 +43,30 @@ $(function() {
 
 	// small portrait click effect
 	$("#portrait-small").click(function() {
+		if($(this).is(":animated")) {
+			return;
+		}
 		$(this).fadeOut("fast", function() {
 			$("#about-section").animate({
 				height: "30em"
 			}, 500, function() {
 				$(".portrait-big").fadeIn();
 				$(".stat-charts").fadeIn();
+			});
+		});
+	});
+
+	// big portrait click
+	$("#portrait-big").click(function() {
+		if($(this).is(":animated")) {
+			return;
+		}
+		$(".stat-charts").fadeOut("fast");
+		$(this).stop(true, true).fadeOut("fast", function() {
+			$("#about-section").animate({
+				height: "20em"
+			}, 500, function() {
+				$("#portrait-small").fadeIn();
 			});
 		});
 	});
@@ -143,7 +161,7 @@ $(function() {
 		if ($("#msg").val().length < 5) {
 			errorCount += 1;
 			$("#msg").addClass("error");
-			$("#msg").attr("placeholder", "Please leave a meaningful message");
+			$("#msg").attr("placeholder", "Please leave a message");
 		}
 
 		if (errorCount === 0) {

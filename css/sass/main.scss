@@ -39,9 +39,10 @@ a {
 }
 
 .rocksalt {
-	font-family: 'Rock Salt', cursive;
+	font-family: Georgia, serif;
 	color: $mPink;
 	font-size: 1.5em;
+	text-transform: capitalize;
 }
 
 .seperate-line {
@@ -142,11 +143,14 @@ body {
 				-moz-box-sizing: border-box;
 				box-sizing: border-box;
 				float: right;
-				font-size: 1.5em;
+				font-size: 1.2em;
 				color: $mPink;
 				width: 25%;
 				padding-left: 0.5em;
-				margin-bottom: 0.25em;
+
+				&:hover {
+					font-size: 1.3em;
+				}
 
 				span {
 					position: absolute;
@@ -155,7 +159,8 @@ body {
 			}
 
 			ul {
-				float: right;
+				position: absolute;
+				left: 0; right: 0; top: 1em;
 				
 				li {
 					&:nth-child(n+1) {
@@ -239,6 +244,7 @@ body {
 			-webkit-background-size: contain;
 			background-size: contain;
 			display: none;
+			cursor: pointer;
 		}
 
 		.stat-charts {
@@ -338,17 +344,22 @@ body {
 						float: left;
 						width: 0.75em; height: 0.75em;
 						margin-right: 1.5em;
-						-webkit-border-radius: 50%;
-						-moz-border-radius: 50%;
-						border-radius: 50%;
-						background: white;
-						background: rgba(255, 255, 255, 0.4);
 
 						a {
 							display: block;
 							width: 100%; height: 100%;
 							text-decoration: none;
+							-webkit-border-radius: 50%;
+							-moz-border-radius: 50%;
+							border-radius: 50%;
+							background: white;
+							background: rgba(255, 255, 255, 0.4);
 							color: transparent;
+						}
+
+						a.active {
+							background: gray;
+							background: rgba(255, 255, 255, 0.8);
 						}
 
 						&:last-of-type {
@@ -731,12 +742,17 @@ body {
 		left: 102% !important;
 	}
 
+	// That's ugly, I know it...
 	ul.second-horizontal-seperate-line li:last-of-type {
 		left: 103% !important;
 	}
 
 	.vertical-seperate-line {
 		height: 31.5em !important;
+	}
+
+	#about-dot {
+		left: 25% !important;
 	}
 }
 
@@ -747,6 +763,10 @@ body {
 
 	ul.second-horizontal-seperate-line li:last-of-type {
 		left: 104% !important;
+	}
+
+	#about-dot {
+		left: 25% !important;
 	}
 }
 
