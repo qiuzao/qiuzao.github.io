@@ -64,7 +64,7 @@ $(function() {
 		$(".stat-charts").fadeOut("fast");
 		$(this).stop(true, true).fadeOut("fast", function() {
 			$("#about-section").animate({
-				height: "20em"
+				height: "16em"
 			}, 500, function() {
 				$("#portrait-small").fadeIn();
 			});

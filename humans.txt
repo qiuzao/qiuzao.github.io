@@ -1,0 +1,16 @@
+/* TEAM */
+Developer: Xiao Ma
+Email: mahimself@gmail.com
+Location: Toronto, Canada
+
+Designer: Qiuzao Zhang
+Email: qiuzaozhang@gmail.com
+Location: Toronto, Canada
+                        
+                            
+/* SITE */                  
+Last update: 2014/01/01                      
+Standards: HTML5, CSS3                    
+Components: jQuery, jQuery.slide, Bootstrap, Scss, Grunt.js, Node.js
+Software: Sublime Text 3, Photoshop, Illustrator
+Service: Github Pages, Google Fonts

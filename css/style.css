@@ -159,7 +159,7 @@ body {
         .content .content-header .section-index ul li:nth-child(n+3) {
           left: 25%; }
   .content .content-about {
-    height: 20em;
+    height: 16em;
     position: relative; }
     .content .content-about ul .pacman {
       left: 15%; }
@@ -181,7 +181,7 @@ body {
           color: #f74461; }
     .content .content-about .portrait-small {
       width: 30%;
-      height: 15em;
+      height: 12em;
       float: right;
       margin-top: -8px;
       background: transparent url("../img/portrait-small.png") center top no-repeat;
