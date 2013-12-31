@@ -198,6 +198,12 @@ $(function() {
 			$('#msg-modal').modal('show');
 		}
 	});
+
+	appUtil.preloadImage([
+		'img/btn-click.png',
+		'img/btn-hover.png',
+		'img/portrait-clicked.png'
+	]);
 });
 
 var appUtil = {
@@ -215,5 +221,11 @@ var appUtil = {
 		      effect: "slide"
 		    }
 		});
-	}
+	},
+
+	preloadImage: function (arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
 }
