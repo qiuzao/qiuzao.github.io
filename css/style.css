@@ -54,6 +54,9 @@ a {
   font-size: 1.5em;
   text-transform: capitalize; }
 
+.jvFloat .placeHolder {
+  color: #969696; }
+
 .seperate-line {
   font-size: 16px;
   background: url("../img/dots_horizontal.png") left 60% repeat-x;
@@ -96,9 +99,9 @@ body {
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
   background-position: 0 5em;
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Lato', sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   padding-top: 2em; }
 
 .top-button {
@@ -188,6 +191,10 @@ body {
       -webkit-background-size: contain;
       background-size: contain;
       cursor: pointer; }
+      .content .content-about .portrait-small:hover {
+        background: transparent url("../img/portrait-hover.png") center top no-repeat;
+        -webkit-background-size: contain;
+        background-size: contain; }
     .content .content-about .portrait-big {
       position: absolute;
       width: 35%;
