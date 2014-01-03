@@ -73,16 +73,53 @@ $(function() {
 
 	// work tile click event. swap slideshow content
 	$(".hex-tile-container").click(function() {
+		// prepare content
+		var i = 0;
+		var workId = $(this).attr("id");
+		var slidesNum;
+		switch(workId) {
+			case "timer":
+				slidesNum = 9;
+				break;
+			case "domain":
+				slidesNum = 2;
+				break;
+			case "timezone":
+				slidesNum = 1;
+				break;
+			case "ignite":
+				slidesNum = 1;
+				break;
+			case "book":
+				slidesNum = 2;
+				break;
+			default:
+				slidesNum = 0;
+		}
+
+		if (slidesNum === 0)
+			return;
+
+		var content = "<div class='work-slideshow' id='slides'>";
+		for (i = 0; i < slidesNum; i++) {
+			if ((workId === "timer" || workId === "ignite") && (i === 0 || i === 8))
+				content += "<div style='background:url(img/demo/" + workId + "/Page-" + (i + 1) + ".jpg); background-size:cover; -webkit-background-size:cover; height: 100%;'></div>"
+			else
+				content += "<div style='background:url(img/demo/" + workId + "/Page-" + (i + 1) + ".png); background-size:cover; -webkit-background-size:cover; height: 100%;'></div>"
+		}
+		content += "</div>";
+
 		$("#slides").fadeOut('fast', function(){
 			$("#slideshow-container").children().remove();
-			$("#slideshow-container").append("<div class='work-slideshow' id='slides'>\
-				<div>4</div> \
-	        			<div>5</div>\
-	        			<div>6</div>\
-	        			<div>7</div>\
-	        			</div>");
+			$("#slideshow-container").append(content);
 
-			appUtil.initSlideshow();
+			if (slidesNum > 1) {
+				appUtil.initSlideshow();
+				$(".slidesjs-pagination").css({width: 0.75*slidesNum + 1.5*(slidesNum - 1) + "em"});
+			}
+			else {
+				$("#slides").children().css({position:"absolute", left:0, right:0, top:0, bottom:0});
+			}
 		});
 
 	});
