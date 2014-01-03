@@ -95,7 +95,7 @@ html {
   background: transparent url("../img/bg-pattern.png") repeat; }
 
 body {
-  background: transparent url("../img/header-img-small.png") left 1em no-repeat;
+  background: transparent url("../img/header-img-large.png") left 1em no-repeat;
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
   background-position: 0 5em;
