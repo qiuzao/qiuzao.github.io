@@ -378,7 +378,8 @@ body {
       -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       -o-transform: rotate(90deg);
-      transform: rotate(90deg); }
+      transform: rotate(90deg);
+      -webkit-backface-visibility: hidden; }
       .content .content-work .work-tiles .hexagon .hexagon-in1 {
         overflow: hidden;
         width: 100%;
@@ -387,7 +388,8 @@ body {
         -moz-transform: rotate(-60deg);
         -ms-transform: rotate(-60deg);
         -o-transform: rotate(-60deg);
-        transform: rotate(-60deg); }
+        transform: rotate(-60deg);
+        -webkit-backface-visibility: hidden; }
         .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 {
           overflow: hidden;
           width: 100%;
@@ -397,7 +399,8 @@ body {
           -moz-transform: rotate(-60deg);
           -ms-transform: rotate(-60deg);
           -o-transform: rotate(-60deg);
-          transform: rotate(-60deg); }
+          transform: rotate(-60deg);
+          -webkit-backface-visibility: hidden; }
           .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .img-container {
             width: 120%;
             height: 100%;
@@ -406,7 +409,8 @@ body {
             -moz-transform: rotate(30deg);
             -ms-transform: rotate(30deg);
             -o-transform: rotate(30deg);
-            transform: rotate(30deg); }
+            transform: rotate(30deg);
+            -webkit-backface-visibility: hidden; }
           .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .img-container.timer {
             background: transparent url("../img/demo/timer/preview.png") left top no-repeat;
             background-position: 0 75%;
