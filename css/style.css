@@ -406,7 +406,8 @@ body {
             -moz-transform: rotate(30deg);
             -ms-transform: rotate(30deg);
             -o-transform: rotate(30deg);
-            transform: rotate(30deg); }
+            transform: rotate(30deg);
+            cursor: pointer; }
           .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .img-container.timer {
             background: url("../img/demo/timer/preview.png") left top no-repeat;
             background-position: 0 75%; }
