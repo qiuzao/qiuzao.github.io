@@ -383,7 +383,7 @@ body {
 			.hex-tile-container {
 				height: 156px;
 				width: 90px;
-				background-color: $borderGray;
+				// background-color: $borderGray;
 				position: relative;
 				overflow: visible;
 				float: left;
@@ -422,9 +422,9 @@ body {
 					content: "";
 					width: 0;
 					height: 0;
-					border-right: 45px solid $borderGray;
-					border-top: 78px solid transparent;
-					border-bottom: 78px solid transparent;
+					// border-right: 45px solid $borderGray;
+					// border-top: 78px solid transparent;
+					// border-bottom: 78px solid transparent;
 					position: absolute;
 					left: -45px;
 				}
@@ -433,9 +433,9 @@ body {
 					content: "";
 					width: 0;
 					height: 0;
-					border-left: 45px solid $borderGray;
-					border-top: 78px solid transparent;
-					border-bottom: 78px solid transparent;
+					// border-left: 45px solid $borderGray;
+					// border-top: 78px solid transparent;
+					// border-bottom: 78px solid transparent;
 					position: absolute;
 					right: -45px;
 				}
@@ -517,7 +517,7 @@ body {
 							-ms-transform: rotate(30deg);
 							-o-transform: rotate(30deg);
 							transform: rotate(30deg);
-							// -webkit-backface-visibility: hidden;
+							-webkit-backface-visibility: hidden;
 							cursor: pointer;
 						}
 

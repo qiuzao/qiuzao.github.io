@@ -1,6 +1,9 @@
 $(function() {
 	appUtil.initSlideshow();
 
+	// init placeholder for IE
+	$("*[type=text]").placeholder();
+
 	// header menu hover effect
 	$(".section-index-item").mouseenter(function() {
 		$("#" + $(this).html() + "-dot").addClass("active");
