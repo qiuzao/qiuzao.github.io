@@ -789,6 +789,12 @@ body {
 	transform: translate(0, 1em);
 }
 
+// image preload
+body:after {
+	content: url(../img/btn-click.png) url(../img/btn-hover.png) url(../img/portrait-hover.png) url(../img/portrait-clicked.png);
+	display: none;
+}
+
 @media screen and (max-width: 1200px) {
 	body {
 		font-size: 16px;

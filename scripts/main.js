@@ -241,11 +241,11 @@ $(function() {
 
 	$(".one-line").jvFloat();
 
-	appUtil.preloadImage([
-		'img/btn-click.png',
-		'img/btn-hover.png',
-		'img/portrait-clicked.png'
-	]);
+	// appUtil.preloadImage([
+	// 	'img/btn-click.png',
+	// 	'img/btn-hover.png',
+	// 	'img/portrait-clicked.png'
+	// ]);
 });
 
 var appUtil = {
