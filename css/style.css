@@ -301,7 +301,7 @@ body {
             margin-right: 0; }
   .content .content-work .work-tiles {
     margin: 0 auto 5em auto;
-    width: 630px; }
+    width: 765px; }
     .content .content-work .work-tiles .hex-tile-container {
       height: 156px;
       width: 90px;
@@ -311,11 +311,9 @@ body {
       margin-right: 180px; }
       .content .content-work .work-tiles .hex-tile-container:nth-child(7n+1) {
         margin-left: 135px; }
-      .content .content-work .work-tiles .hex-tile-container:nth-child(n+3) {
+      .content .content-work .work-tiles .hex-tile-container:nth-child(n+4) {
         margin-top: -78px; }
-      .content .content-work .work-tiles .hex-tile-container:nth-child(5n+2) {
-        margin-right: 90px; }
-      .content .content-work .work-tiles .hex-tile-container:nth-child(n+5) {
+      .content .content-work .work-tiles .hex-tile-container:nth-child(3n) {
         margin-right: 0; }
       .content .content-work .work-tiles .hex-tile-container:last-of-type {
         margin-bottom: 5em; }
@@ -417,6 +415,9 @@ body {
           .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .img-container.book {
             background: url("../img/demo/book/preview.png") left top no-repeat;
             background-position: 0 75%; }
+          .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .img-container.ssld {
+            background: url("../img/demo/ssld/preview.png") left top no-repeat;
+            background-position: 0 75%; }
           .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .android {
             width: 100%;
             height: 100%;
@@ -461,6 +462,29 @@ body {
               right: 0;
               margin: auto;
               background: url("../img/apple.png") center center no-repeat;
+              -webkit-background-size: contain;
+              background-size: contain; }
+          .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .web {
+            width: 100%;
+            height: 100%;
+            background: -moz-radial-gradient(rgba(82, 82, 82, 0.6), rgba(0, 0, 0, 0.6));
+            background: -webkit-radial-gradient(rgba(82, 82, 82, 0.6), rgba(0, 0, 0, 0.6));
+            background: -ms-radial-gradient(rgba(82, 82, 82, 0.6), rgba(0, 0, 0, 0.6));
+            background: -o-radial-gradient(rgba(82, 82, 82, 0.6), rgba(0, 0, 0, 0.6));
+            pointer-events: none;
+            position: relative;
+            display: none; }
+            .content .content-work .work-tiles .hexagon .hexagon-in1 .hexagon-in2 .web:before {
+              content: "";
+              width: 4em;
+              height: 4em;
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin: auto;
+              background: url("../img/web.png") center center no-repeat;
               -webkit-background-size: contain;
               background-size: contain; }
   .content .content-contact {
@@ -587,8 +611,9 @@ body {
     background: -moz-linear-gradient(top, #393c45, #535c65);
     background: -o-linear-gradient(top, #393c45, #535c65);
     background: linear-gradient(top, #393c45, #535c65);
-    height: 3em;
-    line-height: 3em;
+    height: 4em;
+    line-height: 4em;
+    font-size: 0.8em;
     text-align: right;
     padding-right: 5%;
     color: #dadbdb; }
@@ -632,7 +657,7 @@ body {
   transform: translate(0, 1em); }
 
 body:after {
-  content: url(../img/btn-click.png) url(../img/btn-hover.png) url(../img/portrait-hover.png) url(../img/portrait-clicked.png);
+  content: url(../img/btn-click.png) url(../img/btn-hover.png) url(../img/portrait-hover.png) url(../img/portrait-clicked.png) url(../img/android.png) url(../img/apple.png);
   display: none; }
 
 @media screen and (max-width: 1200px) {

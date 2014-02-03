@@ -96,6 +96,9 @@ $(function() {
 			case "book":
 				slidesNum = 2;
 				break;
+			case "ssld":
+				slidesNum = 3;
+				break;
 			default:
 				slidesNum = 0;
 		}
