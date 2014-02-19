@@ -374,10 +374,10 @@ body {
 		.work-tiles {
 			margin: 0 auto 5em auto;
 			// for 7 tiles layout
-			// width: 900px;
+			width: 900px;
 
 			// for 6 tiles layout
-			width: 765px;
+			// width: 765px;
 
 			// for 5 tiles layout
 			// width: 630px;
@@ -386,7 +386,6 @@ body {
 			.hex-tile-container {
 				height: 156px;
 				width: 90px;
-				// background-color: $borderGray;
 				position: relative;
 				overflow: visible;
 				float: left;
@@ -414,18 +413,18 @@ body {
 				}
 
 				// for 6 tiles layout
-				&:nth-child(3n) {
-					margin-right: 0;
-				}
-
-				// for 7 tiles layout
-				// &:nth-child(7n) {
+				// &:nth-child(3n) {
 				// 	margin-right: 0;
 				// }
 
-				// &:nth-child(7n-4) {
-				// 	margin-right: 90px;
-				// }
+				// for 7 tiles layout
+				&:nth-child(7n) {
+					margin-right: 0;
+				}
+
+				&:nth-child(7n-4) {
+					margin-right: 90px;
+				}
 
 				&:last-of-type {
 					margin-bottom: 5em;
@@ -564,7 +563,10 @@ body {
 							background-position: 0 75%;
 						}
 
-
+						.img-container.secondhand {
+							background:url('../img/demo/secondhand/preview.png') left top no-repeat;
+							background-position: 0 75%;
+						}
 
 						.android {
 							@include work-tile-overlay(url('../img/android.png') center center no-repeat);
@@ -576,6 +578,10 @@ body {
 
 						.web {
 							@include work-tile-overlay(url('../img/web.png') center center no-repeat);
+						}
+
+						.overlay.active {
+							display: block;
 						}
 					}
 				}

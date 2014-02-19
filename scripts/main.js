@@ -77,8 +77,17 @@ $(function() {
 	// work tile click event. swap slideshow content
 	$(".hex-tile-container").click(function() {
 		// prepare content
+		prepareSlides($(this).attr("id"));
+
+		$('.overlay.active').removeClass('active');
+		$('.overlay', this).addClass('active');
+	});
+
+	// load initial slides, secondhand one for now
+	prepareSlides("secondhand");
+
+	function prepareSlides(workId) {
 		var i = 0;
-		var workId = $(this).attr("id");
 		var slidesNum;
 		switch(workId) {
 			case "timer":
@@ -99,6 +108,9 @@ $(function() {
 			case "ssld":
 				slidesNum = 3;
 				break;
+			case "secondhand":
+				slidesNum = 1;
+				break;
 			default:
 				slidesNum = 0;
 		}
@@ -108,7 +120,7 @@ $(function() {
 
 		var content = "<div class='work-slideshow' id='slides'>";
 		for (i = 0; i < slidesNum; i++) {
-			if ((workId === "timer" || workId === "ignite") && (i === 0 || i === 8))
+			if ((workId === "timer" || workId === "ignite" || workId == "secondhand") && (i === 0 || i === 8))
 				content += "<div style='background:url(img/demo/" + workId + "/Page-" + (i + 1) + ".jpg); background-size:cover; -webkit-background-size:cover; height: 100%;'></div>"
 			else
 				content += "<div style='background:url(img/demo/" + workId + "/Page-" + (i + 1) + ".png); background-size:cover; -webkit-background-size:cover; height: 100%;'></div>"
@@ -127,13 +139,19 @@ $(function() {
 				$("#slides").children().css({position:"absolute", left:0, right:0, top:0, bottom:0});
 			}
 		});
-
-	});
+	}
 
 	// work tile hover
 	$(".hexagon-in2").mouseenter(function() {
+		if ($('.overlay', this).hasClass('active')) {
+			return;
+		}
 		$(".overlay", this).stop(true, true).fadeIn(200);
 	}).mouseleave(function() {
+		if ($('.overlay', this).hasClass('active')) {
+			$('.overlay', this).removeAttr('style');
+			return;
+		}
 		$(".overlay", this).stop(true, true).fadeOut(200);
 	})
 
