@@ -99,7 +99,7 @@ a:visited
       width: 0;
    }
       to {
-      width: 12ch;
+      width: 240px;
    }
 }
 
@@ -108,7 +108,7 @@ a:visited
       width: 0;
    }
       to {
-      width: 12ch;
+      width: 240px;
    }
 }
 
@@ -117,7 +117,7 @@ a:visited
       width: 0;
    }
       to {
-      width: 12ch;
+      width: 240px;
    }
 }
 
@@ -132,7 +132,7 @@ a:visited
 {
 	float: left;
 	overflow: hidden;
-	width: 3ch;
+	width: 2ch;
 
 	-webkit-animation: disappear 6s step-end forwards;
 	-moz-animation: disappear 6s step-end forwards;
