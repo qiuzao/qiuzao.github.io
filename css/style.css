@@ -43,7 +43,7 @@ a:visited
 
 .icon
 {
-  background-image: url(../img/q-icon.png);
+  background-image: url(../img/Q-icon.png);
   background-repeat: no-repeat;
   width: 80px; height: 80px;
   margin: 3em auto;
@@ -51,7 +51,7 @@ a:visited
 
 .icon-2
 {
-  background-image: url(../img/q-icon.png);
+  background-image: url(../img/Q-icon.png);
   background-repeat: no-repeat;
   width: 80px; height: 80px;
   margin: 3em auto;
@@ -60,7 +60,7 @@ a:visited
 
 .icon-2:hover
 {
-  background-image: url(../img/q-icon2.png);
+  background-image: url(../img/Q-icon2.png);
   cursor: pointer;
 
   transition: 1s;
