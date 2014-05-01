@@ -1,225 +1,130 @@
-<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-<!--         <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-        <title>Qiuzao - mobile & web design</title>
-        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/jvfloat.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="author" href="humans.txt">
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
- 	</head>
-	<body>
-    <!--[if lt IE 9]>
-	Place upgrade to modern browser.
-	<![endif]-->
-    	<div class="top-button" id="top-button"></div>
-        <div class="content">
-        	<div class="content-header">
-        		<div class="middle-column">
-	        		<div class="section-index">
-		        		<div class="section-index-item">contact</div>
-		        		<div class="section-index-item">work</div>
-	        			<div class="section-index-item">about</div>
-	        			<ul class="seperate-line">
-	        				<li id="contact-dot"></li>
-	        				<li id="work-dot"></li>
-	        				<li id="about-dot"></li>
-	        			</ul>
-	        		</div>
-        		</div>
-        	</div>
+<head>
+	<meta charset="UTF-8">
+	<title>Qiuzao Zhang | UI/UX Design</title>
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
 
-        	<div class="content-about middle-column" id="about-section">
-        		<a href="about"></a>
-        		<div class="content-title rocksalt">about</div>
-        		<ul class="seperate-line">
-        			<div class="pacman"></div>
-					<li class="active"></li>
-					<li></li>
-					<li></li>
-					<li></li>
-        		</ul>
-        		<div class="portrait-small" id="portrait-small"></div>
-        		<div class="portrait-big" id="portrait-big"></div>
-        		<div class="about-desc">
-        			<p>Welcome to my portfolio!</p>
-        			<p class="margin-left-3em">I am Qiuzao Zhang, a <span>designer</span> in <span>Toronto, Canada</span>. My collegues also call me <span>Q</span>.</p>
-        			<p class="margin-left-3em">I make use of a combination of design skills and a background in <span>user experience research</span>.</p>
-        			<p class="margin-left-3em">I specialize in providing design solutions for <span>mobile applications</span> and <span>websites</span>.</p>
-        		</div>
-        		<div class="stat-charts"></div>
-        	</div>
-        	<div class="content-work middle-column" id="work-section">
-        		<div class="content-title rocksalt">work</div>
-        		<ul class="seperate-line">
-        			<div class="pacman"></div>
-					<li class="active"></li>
-					<li></li>
-					<li></li>
-        		</ul>
-        		<div class="slideshow-container" id="slideshow-container">
-	        		<div class="work-slideshow" id="slides">
+<div class="icon"></div>
 
-	        		</div>        			
-        		</div>
-				<div class="work-tiles">
-					<div class="hex-tile-container" id="secondhand">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container secondhand">
-											<div class="overlay apple active"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hex-tile-container" id="timer">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container timer">
-											<div class="overlay android"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hex-tile-container" id="domain">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container domain-search">
-											<div class="overlay apple"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hex-tile-container" id="book">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container book">
-											<div class="overlay android"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hex-tile-container" id="timezone">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container timezone">
-											<div class="overlay apple"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hex-tile-container" id="ssld">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container ssld">
-											<div class="overlay web"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hex-tile-container" id="ignite">
-						<div class="inner-hex-tile-container">
-							<div class="hexagon">
-								<div class="hexagon-in1">
-									<div class="hexagon-in2">
-										<div class="img-container ignite">
-											<div class="overlay apple"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+<div class="title-wrap">
+    <div class="qiuzao">QIUZAO&nbspZHANG</div>
+    <div class="cursor-wrapper"><div class="cursor">|</div></div>
 
-				</div>
-        	</div>
-        	<div class="clear"></div>
-        	<div class="content-contact middle-column" id="contact-section">
-        		<div class="content-title rocksalt">contact</div>
-        		<ul class="seperate-line">
-        			<div class="pacman"></div>
-					<li class="active"></li>
-					<li></li>
-        		</ul>
-        		<div class="vertical-seperate-line">
-        			<ul class="second-horizontal-seperate-line seperate-line">
-        				<li></li>
-        			</ul>
-        		</div>
-        		<div class="contact-form">
-        			<input type="text" class="input-block one-line" placeholder="Name" id="name">
-        			<input type="text" class="input-block one-line" placeholder="Email" id="email">
-        			<textarea type="text" class="input-block multi-line" placeholder="Message" id="msg"></textarea>
-        			<div class="submit-button" id="submit"></div>
-        		</div>
-        		<div class="contact-more-info">
-        			<p>Please feel free to drop me a message, even just to say hi!</p>
-        			<p>Or send me an email.</p>
-        			<p><a href="mailto:qiuzaozhang@gmail.com" class="rocksalt">qiuzaozhang@gmail.com</a></p>
-        		</div>
-        	</div>
+</div>    
+
+<div class="nav">
+        <a href="#work" class="work">work</a>
+        <a href="html/about.html" class="about">about</a>
+</div>
+
+<div class="parallax-section">
+    <div class="head-text">
+    Hi,you’ve found Qiuzao. I provide <span>UI/UX solutions</span> for your <span>web & mobile</span> experience.
+    </div>
+
+    <div class="social-icons">
+        <a class="email" href="mailto:qiuzaozhang@gmail.com"></a>
+        <a class="behance" href="http://behance.net/qiuzao" target="blank"></a>
+        <a class="twitter" href="https://twitter.com/QiuzaoZhang" target="blank"></a>
+        <a class="linked" href="http://ca.linkedin.com/pub/qiuzao-zhang/5b/941/528/" target="blank"></a>
+    </div>
+</div>
+
+
+<div class="pic-group" id="work" name="work">
+    <div class="pic-row">
+        <div class="pic-section1">
+            <a class="pic pic1" href="html/ninja.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                      <line class="top" x1="0" y1="0" x2="1200" y2="0"></line>
+                      <line class="left" x1="0" y1="400" x2="0" y2="-800"></line>
+                      <line class="bottom" x1="400" y1="400" x2="-800" y2="400"></line>
+                      <line class="right" x1="400" y1="0" x2="400" y2="1200"></line>
+                  </svg>
+            </a>
+
+            <div class="pic-text">
+                <a class="pic-title" href="html/ninja.html"><span>- </span>PAPER NINJA<span> -</span></a>
+                <div class="pic-intro">iOS app concept: bring fun to your school term task management</div>
+                <div class="divider"></div>
+            </div>
         </div>
-        <div class="clear"></div>
-        <div class="footer">
-        	<div class="ghosts">
-        		<div id="yellow-ghost" class="ghost big-ghost"></div>
-        		<div id="green-ghost" class="ghost"></div>
-        		<div id="blue-ghost" class="ghost big-ghost"></div>
-        	</div>
-        	<div class="footer-bar">
-	        	<p>design by <span>Qiuzao</span> Zhang, created by <span>Xiao</span> Ma</p>
-	        	<div class="decorative-line"></div>
-        	</div>
+
+        <div class="pic-section2">
+            <a class="pic pic2" href="html/211.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                      <line class="top" x1="0" y1="0" x2="1200" y2="0"></line>
+                      <line class="left" x1="0" y1="400" x2="0" y2="-800"></line>
+                      <line class="bottom" x1="400" y1="400" x2="-800" y2="400"></line>
+                      <line class="right" x1="400" y1="0" x2="400" y2="1200"></line>
+                  </svg>
+            </a>
+
+            <div class="pic-text">
+                <a class="pic-title" href="html/211.html"><span>- </span>211 TORONTO<span> -</span></a>
+                <div class="pic-intro">iOS design for the most-used local social service locater</div>
+                <div class="divider"></div>
+            </div>
         </div>
-    </body>
+    </div>
 
-	<div class="modal fade" id="msg-modal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4 class="modal-title" id="msg-title">Modal title</h4>
-				</div>
-				<div class="modal-body">
-					<p id="msg-body"></p>
-				</div>
-				<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
+    <div class="pic-row">
+        <div class="pic-section1">
+            <a class="pic pic3" href="html/ssld.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                      <line class="top" x1="0" y1="0" x2="1200" y2="0"></line>
+                      <line class="left" x1="0" y1="400" x2="0" y2="-800"></line>
+                      <line class="bottom" x1="400" y1="400" x2="-800" y2="400"></line>
+                      <line class="right" x1="400" y1="0" x2="400" y2="1200"></line>
+                  </svg>
+            </a>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="scripts/libs/jquery.placeholder.js"></script>
-	<script src="scripts/libs/jquery.slides.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="scripts/libs/bootstrap.modal.min.js"></script>
-	<script src="scripts/libs/jvfloat.min.js"></script>
-	<script src="scripts/main.js"></script>
+            <div class="pic-text">
+                <a class="pic-title" href="html/ssld.html"><span>- </span>SSLD WEBSITE<span> -</span></a>
+                <div class="pic-intro">Commissioned redesign of an educational & social work website</div>
+                <div class="divider"></div>
+            </div>
+        </div>
+
+        <div class="pic-section2">
+            <a class="pic pic4" href="html/old.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                      <line class="top" x1="0" y1="0" x2="1200" y2="0"></line>
+                      <line class="left" x1="0" y1="400" x2="0" y2="-800"></line>
+                      <line class="bottom" x1="400" y1="400" x2="-800" y2="400"></line>
+                      <line class="right" x1="400" y1="0" x2="400" y2="1200"></line>
+                  </svg>
+            </a>
+
+            <div class="pic-text">
+                <a class="pic-title" href="html/old.html"><span>- </span>GOOD OLD DAYS<span> -</span></a>
+                <div class="pic-intro">What Qiuzao.net use to look like</div>
+                <div class="divider"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <a href="#" class="icon-up"></a>
+    <div class="copyright">Copyright © 2014. All Rights Reserved</div>
+</div>
+
+<div class="invisible">
+    <img src="img/s-icon2.png"></img>
+    <img src="img/pv1-c.jpg"></img>
+    <img src="img/pv2-c.jpg"></img>
+    <img src="img/pv3-c.jpg"></img>
+    <img src="img/pv4-c.jpg"></img>
+</div>
+
+</body>
 </html>
+
