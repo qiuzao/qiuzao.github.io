@@ -278,6 +278,7 @@ body
   -webkit-transform: translateY(150px);
   -moz-transform: translateY(150px);
   transform: translateY(150px);
+  opacity: .1;
 
   -webkit-animation: come-in 1s ease forwards;
   -moz-animation: come-in 1s ease forwards;
@@ -301,15 +302,15 @@ body
 }
 
 @keyframes come-in {
-  to { transform: translateY(0); }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 @-webkit-keyframes come-in {
-  to { -webkit-transform: translateY(0); }
+  to { -webkit-transform: translateY(0); opacity: 1; }
 }
 
 @-moz-keyframes come-in {
-  to { -moz-transform: translateY(0); }
+  to { -moz-transform: translateY(0); opacity: 1; }
 }
 
 /*-------footer-------*/
