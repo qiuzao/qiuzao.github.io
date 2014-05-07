@@ -71,26 +71,6 @@ jQuery(document).ready(function() {
 
 
 
-var images = new Array()
-
-function preload() {
-    for (i = 0; i < preload.arguments.length; i++) {
-        images[i] = new Image()
-        images[i].src = preload.arguments[i]
-    }
-}
-preload(
-    "../img/s-icon2.png",
-    "../img/pv1-c.jpg",
-    "../img/pv2-c.jpg",
-    "../img/pv3-c.jpg",
-    "../img/pv4-c.jpg",
-)
-
-document.onload = preload();
-
-
-
 
 
 
