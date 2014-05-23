@@ -67,14 +67,27 @@ jQuery(document).ready(function() {
         }, 500);
         event.preventDefault();
     });
-});
 
+preload([
+    '../img/s-icon2.jpg',
+    '../img/q-icon2.jpg',
+    '../img/pv1-c.jpg',
+    '../img/pv2-c.jpg',
+    '../img/pv3-c.jpg',
+    '../img/pv4-c.jpg',
+    '../img/pv5-c.jpg',
+]);
+
+});
 
 function preload(arrayOfImages) {
     $(arrayOfImages).each(function(){
-        $('<img/>')[0].src = this;
+        new Image().src = this;
     });
 }
+
+
+
 
 
 

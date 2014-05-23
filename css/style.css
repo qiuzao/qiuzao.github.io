@@ -414,6 +414,11 @@ div .pic {
   background-image: url(../img/pv4.jpg);
 }
 
+.pic5
+{
+  background-image: url(../img/pv5.jpg);
+}
+
 .pic1:hover
 {
   background-image: url(../img/pv1-c.jpg);
@@ -435,6 +440,12 @@ div .pic {
 .pic4:hover
 {
   background-image: url(../img/pv4-c.jpg);
+  transition: .3s;
+}
+
+.pic5:hover
+{
+  background-image: url(../img/pv5-c.jpg);
   transition: .3s;
 }
 
@@ -724,7 +735,7 @@ div .page-title
   float: left;
   width: 200px;
   margin-right: 100px;
-  margin-bottom: 8em;
+  margin-bottom: 6em;
 }
 
 .pic-text-2
