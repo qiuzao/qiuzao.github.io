@@ -69,8 +69,8 @@ jQuery(document).ready(function() {
     });
 
 preload([
-    '../img/s-icon2.jpg',
-    '../img/q-icon2.jpg',
+    '../img/s-icon2.png',
+    '../img/q-icon2.png',
     '../img/pv1-c.jpg',
     '../img/pv2-c.jpg',
     '../img/pv3-c.jpg',
