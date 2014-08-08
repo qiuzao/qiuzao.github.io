@@ -593,6 +593,11 @@ div .pic {
   border-bottom: 10px solid #63becd;
 }
 
+.border4
+{
+  border-bottom: 10px solid #5cc1d4;
+}
+
 .width-adjust
 {
   width: 80%;
@@ -799,6 +804,21 @@ div .pic-2 {
   background-image: url(../img/pv4.jpg);
 }
 
+.pic5
+{
+  background-image: url(../img/pv5.jpg);
+}
+
+.pic6
+{
+  background-image: url(../img/pv6.jpg);
+}
+
+.pic7
+{
+  background-image: url(../img/pv7.jpg);
+}
+
 .pic1:hover
 {
   background-image: url(../img/pv1-c.jpg);
@@ -820,6 +840,24 @@ div .pic-2 {
 .pic4:hover
 {
   background-image: url(../img/pv4-c.jpg);
+  transition: .3s;
+}
+
+.pic5:hover
+{
+  background-image: url(../img/pv5-c.jpg);
+  transition: .3s;
+}
+
+.pic6:hover
+{
+  background-image: url(../img/pv6-c.jpg);
+  transition: .3s;
+}
+
+.pic7:hover
+{
+  background-image: url(../img/pv7-c.jpg);
   transition: .3s;
 }
 
