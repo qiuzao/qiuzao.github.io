@@ -75,14 +75,6 @@ $(function($) {
 });
 
 
-
-$(document).ready(function() {
-
-
-    
-});
-
-
 var myimages=new Array()
 
 function preloadimages(){
