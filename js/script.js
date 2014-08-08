@@ -77,7 +77,7 @@ for (i=0;i<preloadimages.arguments.length;i++){
 myimages[i]=new Image()
 myimages[i].src=preloadimages.arguments[i]
 }
-});
+};
 
 $(document).ready(preloadimages("http://qiuzao.net/img/pv1-c.jpg","http://qiuzao.net/img/pv2-c.jpg","http://qiuzao.net/img/pv3-c.jpg","http://qiuzao.net/img/pv4-c.jpg","http://qiuzao.net/img/pv5-c.jpg","http://qiuzao.net/img/pv6-c.jpg"));
 
