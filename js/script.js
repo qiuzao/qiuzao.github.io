@@ -1,4 +1,6 @@
 $(function($) {
+
+    // parallax
     $.fn.parallax = function(options) {
  
         var windowHeight = $(window).height();
@@ -35,50 +37,60 @@ $(function($) {
         });
     }
 
-$('.parallax-section').parallax({
-speed : 0.5
-});
+    $('.parallax-section').parallax({
+        speed : 0.5
+    });
 
-});
-
-
-
-jQuery(document).ready(function() {
+    // back to top
     var offset = 220;
     var duration = 500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.icon-up').fadeIn(duration);
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > offset) {
+            $('.icon-up').fadeIn(duration);
         } else {
-            jQuery('.icon-up').fadeOut(duration);
+            $('.icon-up').fadeOut(duration);
         }
     });
     
-    jQuery('.icon-up').click(function(event) {
+    $('.icon-up').click(function(event) {
         event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
+        $('html, body').animate({scrollTop: 0}, duration);
         return false;
     })
 
-        $('a[href*=#]').click(function(event){
+    $('a[href*=#]').click(function(event) {
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 500);
         event.preventDefault();
     });
 
+    // preload images
+    preloadimages("http://qiuzao.net/img/pv1-c.jpg",
+                  "http://qiuzao.net/img/pv2-c.jpg",
+                  "http://qiuzao.net/img/pv3-c.jpg",
+                  "http://qiuzao.net/img/pv4-c.jpg",
+                  "http://qiuzao.net/img/pv5-c.jpg",
+                  "http://qiuzao.net/img/pv6-c.jpg");
+});
+
+
+
+$(document).ready(function() {
+
+
+    
+});
 
 
 var myimages=new Array()
 
 function preloadimages(){
-for (i=0;i<preloadimages.arguments.length;i++){
-myimages[i]=new Image()
-myimages[i].src=preloadimages.arguments[i]
-}
+    for (i=0;i<preloadimages.arguments.length;i++) {
+        myimages[i]=new Image()
+        myimages[i].src=preloadimages.arguments[i]
+    }
 };
-
-$(document).ready(function preloadimages("http://qiuzao.net/img/pv1-c.jpg","http://qiuzao.net/img/pv2-c.jpg","http://qiuzao.net/img/pv3-c.jpg","http://qiuzao.net/img/pv4-c.jpg","http://qiuzao.net/img/pv5-c.jpg","http://qiuzao.net/img/pv6-c.jpg"));
 
 
 
