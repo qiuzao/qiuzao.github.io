@@ -68,23 +68,14 @@ jQuery(document).ready(function() {
         event.preventDefault();
     });
 
-preload([
-    '../img/s-icon2.png',
-    '../img/q-icon2.png',
-    '../img/pv1-c.jpg',
-    '../img/pv2-c.jpg',
-    '../img/pv3-c.jpg',
-    '../img/pv4-c.jpg',
-    '../img/pv5-c.jpg',
-]);
+var myimages=new Array()
 
-});
-
-function preload(arrayOfImages) {
-    $(arrayOfImages).each(function(){
-        new Image().src = this;
-    });
+jQuery(document).ready(function preloadimages("../img/pv1-c.jpg","../img/pv2-c.jpg","../img/pv3-c.jpg","../img/pv4-c.jpg","../img/pv5-c.jpg","../img/pv6-c.jpg"){
+for (i=0;i<preloadimages.arguments.length;i++){
+myimages[i]=new Image()
+myimages[i].src=preloadimages.arguments[i]
 }
+});
 
 
 
