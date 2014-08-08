@@ -68,14 +68,18 @@ jQuery(document).ready(function() {
         event.preventDefault();
     });
 
+        
+
 var myimages=new Array()
 
-jQuery(document).ready(function preloadimages("../img/pv1-c.jpg","../img/pv2-c.jpg","../img/pv3-c.jpg","../img/pv4-c.jpg","../img/pv5-c.jpg","../img/pv6-c.jpg"){
+function preloadimages("../img/pv1-c.jpg","../img/pv2-c.jpg","../img/pv3-c.jpg","../img/pv4-c.jpg","../img/pv5-c.jpg","../img/pv6-c.jpg"){
 for (i=0;i<preloadimages.arguments.length;i++){
 myimages[i]=new Image()
 myimages[i].src=preloadimages.arguments[i]
 }
 });
+
+$(document).ready(preloadimages);
 
 
 
