@@ -656,7 +656,7 @@ div .page-title
   transform: translateY(-1em);
 }
 
-.page-content li
+/*.page-content li
 {
   width: 70%;
   margin:auto;
@@ -669,7 +669,7 @@ div .page-title
   list-style: circle inside;
   text-indent: -1em;
   padding-left: 1em;
-}
+}*/
 
 /*----211----*/
 
