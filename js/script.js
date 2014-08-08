@@ -72,7 +72,7 @@ jQuery(document).ready(function() {
 
 var myimages=new Array()
 
-function preloadimages("../img/pv1-c.jpg","../img/pv2-c.jpg","../img/pv3-c.jpg","../img/pv4-c.jpg","../img/pv5-c.jpg","../img/pv6-c.jpg"){
+function preloadimages("http://qiuzao.net/img/pv1-c.jpg","http://qiuzao.net/img/pv2-c.jpg","http://qiuzao.net/img/pv3-c.jpg","http://qiuzao.net/img/pv4-c.jpg","http://qiuzao.net/img/pv5-c.jpg","../img/pv6-c.jpg"){
 for (i=0;i<preloadimages.arguments.length;i++){
 myimages[i]=new Image()
 myimages[i].src=preloadimages.arguments[i]
