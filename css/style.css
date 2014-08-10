@@ -3,7 +3,7 @@ body
 	color: #555555;
   font-family: 'muli','san-serif';
 	font-size: 10px;
-  min-width: 640px;
+  min-width: 320px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -948,6 +948,46 @@ div .pic-2 {
 .pic-group-2
 {
   width: 700px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+
+.pic-group-2
+{
+  width: 320px;
+  padding-left: 60px;
+}
+
+.embed-pic
+{
+  width: 100%;
+}
+
+.width-adjust
+{
+  width: 100%;
+}
+
+.width-adjust2
+{
+  width: 100%;
+}
+
+.width-adjust3
+{
+  width: 100%;
+}
+
+.fixed-width-1
+{
+  width: 100%;
+}
+
+.head-text
+{
+  font-size: 2.4em;
 }
 
 }
