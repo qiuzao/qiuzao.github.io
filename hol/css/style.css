@@ -1,0 +1,15 @@
+.content {
+    padding: 2em;
+    margin: auto;
+    min-width: 320px;
+}
+
+.clear {
+    clear:both;
+}
+
+/*--------- MAIN PART----------*/
+
+#xiaoming:hover {
+	cursor: pointer;
+}
