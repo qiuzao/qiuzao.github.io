@@ -12,9 +12,25 @@ $(document).ready(function()
         }                         
     );  
 
+    $("#joanna").hover(
+        function()
+        {
+            console.log("log")
+            $(this).attr("src", "image/joanna.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "image/joanna.png");
+        }                         
+    ); 
+
     preload([
     'image/xiaoming.gif'
-    ]);               
+    ]); 
+
+    preload([
+    'image/joanna.gif'
+    ]);              
 });
 
 function preload(arrayOfImages) {
