@@ -24,12 +24,28 @@ $(document).ready(function()
         }                         
     ); 
 
+    $("#dragonfall").hover(
+        function()
+        {
+            console.log("log")
+            $(this).attr("src", "image/df.gif");
+        },
+        function()
+        {
+            $(this).attr("src", "image/df.png");
+        }                         
+    );
+
     preload([
     'image/xiaoming.gif'
     ]); 
 
     preload([
     'image/joanna.gif'
+    ]); 
+
+    preload([
+    'image/df.gif'
     ]);              
 });
 

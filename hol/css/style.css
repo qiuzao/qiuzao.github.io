@@ -10,10 +10,29 @@
 
 /*--------- MAIN PART----------*/
 
+.image-wrapper {
+	margin: auto;
+	width: 80%;
+	max-width: 800px;
+	overflow: hidden;
+}
+
+.image {
+	float:left;
+	margin: 2%;
+	width: 27%;
+	max-width: 200px;
+	min-width: 190px;
+}
+
 #xiaoming:hover {
 	cursor: pointer;
 }
 
 #joanna:hover {
+	cursor: pointer;
+}
+
+#dragonfall:hover {
 	cursor: pointer;
 }
