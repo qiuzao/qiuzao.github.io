@@ -1,0 +1,201 @@
+/*** FONTS ***/
+
+body {
+    font-family: 'mulilight', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 10px;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'mulibold';
+    src: url('../fonts/muli/muli-bold-webfont.eot');
+    src: url('../fonts/muli/muli-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muli/muli-bold-webfont.woff2') format('woff2'),
+         url('../fonts/muli/muli-bold-webfont.woff') format('woff'),
+         url('../fonts/muli/muli-bold-webfont.ttf') format('truetype'),
+         url('../fonts/muli/muli-bold-webfont.svg#mulibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulilight';
+    src: url('../fonts/muli/muli-light-webfont.eot');
+    src: url('../fonts/muli/muli-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muli/muli-light-webfont.woff2') format('woff2'),
+         url('../fonts/muli/muli-light-webfont.woff') format('woff'),
+         url('../fonts/muli/muli-light-webfont.ttf') format('truetype'),
+         url('../fonts/muli/muli-light-webfont.svg#mulilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulisemibolditalic';
+    src: url('../fonts/muli/muli-semi-bolditalic-webfont.eot');
+    src: url('../fonts/muli/muli-semi-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muli/muli-semi-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/muli/muli-semi-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/muli/muli-semi-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/muli/muli-semi-bolditalic-webfont.svg#mulisemibolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulisemibold';
+    src: url('../fonts/muli/muli-semibold-webfont.eot');
+    src: url('../fonts/muli/muli-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muli/muli-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/muli/muli-semibold-webfont.woff') format('woff'),
+         url('../fonts/muli/muli-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/muli/muli-semibold-webfont.svg#mulisemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('../fonts/muli/muli-webfont.eot');
+    src: url('../fonts/muli/muli-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muli/muli-webfont.woff2') format('woff2'),
+         url('../fonts/muli/muli-webfont.woff') format('woff'),
+         url('../fonts/muli/muli-webfont.ttf') format('truetype'),
+         url('../fonts/muli/muli-webfont.svg#muliregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswalddemibold';
+    src: url('../fonts/oswald/oswald-demibold-webfont.eot');
+    src: url('../fonts/oswald/oswald-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald/oswald-demibold-webfont.woff2') format('woff2'),
+         url('../fonts/oswald/oswald-demibold-webfont.woff') format('woff'),
+         url('../fonts/oswald/oswald-demibold-webfont.ttf') format('truetype'),
+         url('../fonts/oswald/oswald-demibold-webfont.svg#oswalddemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswald_regularregular';
+    src: url('../fonts/oswald/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald/oswald-regular-webfont.svg#oswald_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswald_stencilbold';
+    src: url('../fonts/oswald/oswald-stencil-webfont.eot');
+    src: url('../fonts/oswald/oswald-stencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald/oswald-stencil-webfont.woff2') format('woff2'),
+         url('../fonts/oswald/oswald-stencil-webfont.woff') format('woff'),
+         url('../fonts/oswald/oswald-stencil-webfont.ttf') format('truetype'),
+         url('../fonts/oswald/oswald-stencil-webfont.svg#oswald_stencilbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Utils*/
+.left-in {
+    -webkit-transform: translateX(-300px);
+    -moz-transform: translateX(-300px);
+    transform: translateX(-300px);
+    opacity: .1;
+
+    -webkit-animation: left-in 0.7s ease forwards;
+    -moz-animation: left-in 0.7s ease forwards;
+    animation: left-in 0.7s ease forwards;
+}
+
+@keyframes left-in {
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@-webkit-keyframes left-in {
+  to { -webkit-transform: translateX(0); opacity: 1; }
+}
+
+@-moz-keyframes left-in {
+  to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+
+.right-in {
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    transform: translateX(300px);
+    opacity: .1;
+
+    -webkit-animation: right-in 0.7s ease forwards;
+    -moz-animation: right-in 0.7s ease forwards;
+    animation: right-in 0.7s ease forwards;
+}
+
+.right-in-2 {
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    transform: translateX(300px);
+    opacity: .1;
+
+    -webkit-animation: right-in 0.7s cubic-bezier(0.5, 1.2, 0.9, 1.2) forwards;
+    -moz-animation: right-in 0.7s cubic-bezier(0.5, 1.2, 0.9, 1.2) forwards;
+    animation: right-in 0.7s cubic-bezier(0.5, 1.2, 0.9, 1.2) forwards;
+}
+
+@keyframes right-in {
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@-webkit-keyframes right-in {
+  to { -webkit-transform: translateX(0); opacity: 1; }
+}
+
+@-moz-keyframes right-in {
+  to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+
+.top-in {
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: .1;
+
+    -webkit-animation: top-in 0.7s cubic-bezier(0.5, 0.1, 1, 1.5) forwards;
+    -moz-animation: top-in 0.7s cubic-bezier(0.5, 0.1, 1, 1.5) forwards;
+    animation: top-in 0.7s cubic-bezier(0.5, 0.1, 1, 1.5) forwards;
+}
+
+@keyframes top-in {
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@-webkit-keyframes top-in {
+  100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes top-in {
+  100% { -moz-transform: translateY(0); opacity: 1; }
+}
+
+.bottom-in {
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: .1;
+
+    -webkit-animation: top-in 0.7s ease forwards;
+    -moz-animation: top-in 0.7s ease forwards;
+    animation: top-in 0.7s ease forwards;
+}

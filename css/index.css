@@ -1,0 +1,1013 @@
+body {
+    padding: 4em 0 0 0;
+    margin: auto;
+    min-width: 320px;
+}
+
+div {
+    position: relative;
+}
+
+div .hidden, body .hidden {
+    display: none;
+}
+
+.clear {
+    clear:both;
+}
+
+.hidden {
+    display: none;
+}
+
+/*HEADER LOGO*/
+
+
+.logo-wrapper {
+    margin: auto;
+    width: 120px;
+}
+
+.logo-red {
+    width: 110px;
+    height: 110px;
+    background-image: url(../image/LogoRed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top:-8px;
+    left:-8px;
+}
+
+.logo-blue {
+    width: 110px;
+    height: 110px;
+    background-image: url(../image/LogoBlue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.designer-gamer {
+    width: 13px;
+    height: 116px;
+    background-image: url(../image/DesignerGamer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -25px;
+    top: -8px;
+}
+
+.qiuzaozhang {
+    font-family: 'oswalddemibold';
+    font-size: 20px;
+    left: -8px;
+    color: #545454;
+    margin: 10px 0;
+}
+
+/*HEADER IMAGE*/
+
+.slogan {
+    font-family: 'oswald_stencilbold';
+    text-align: center;
+    width: 600px;
+    font-size: 36px;
+    line-height: 50px;
+    color: #545454;
+    margin: 60px auto 0;
+    position: relative;
+}
+
+.slogan span {
+    color: #Adaaaa;
+}
+
+.cloud-red {
+    width: 491px;
+    height: 86px;
+    background-image: url(../image/CloudRed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 30px;
+    right: 500px;
+    z-index: 3;
+}
+
+.cloud-blue {
+    width: 674px;
+    height: 117px;
+    background-image: url(../image/CloudBlue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -64px;
+    right: -390px;
+}
+
+.plus-1 {
+    width: 12px;
+    height: 14px;
+    background-image: url(../image/PlusOneTwo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -220px;
+    top: -40px;
+}
+
+.circle-1 {
+    width: 30px;
+    height: 30px;
+    background-image: url(../image/CircleOne.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -90px;
+    top: 10px;
+    z-index: 2;
+}
+
+.triangle-1 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/TriangleOne.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -20px;
+    top: 105px;
+    z-index: 4;
+}
+
+.plus-2 {
+    width: 12px;
+    height: 14px;
+    background-image: url(../image/PlusOneTwo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 160px;
+    top: -130px;
+}
+
+.circle-2 {
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/CircleTwo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -10px;
+    top: -40px;
+}
+
+.plus-3 {
+    width: 12px;
+    height: 14px;
+    background-image: url(../image/PlusThree.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: -120px;
+    top: 5px;
+    z-index: 0;
+}
+
+/*MENU ITEMS*/
+.menu-wrapper {
+    margin: 40px auto;
+    width: 300px;
+    overflow: hidden;
+}
+
+.menu-box {
+    font-family: 'mulilight';
+    width: 100px;
+    font-size: 12px;
+    color: #545454;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.menu-box:hover {
+    font-family: 'mulisemibold';
+}
+
+.menu-selected {
+    font-family: 'mulisemibold';
+    color: #ff4e54;
+    border-bottom: 1px solid #ff4e54;
+    cursor: inherit;
+}
+
+.menu-selected span {
+    color: #ff4e54;
+}
+
+.menu-work {
+    text-align: left;
+    float: left;
+}
+
+.menu-freebie {
+    text-align: center;
+    float: left;
+}
+
+.menu-about {
+    text-align: right;
+    float: right;
+}
+
+/*50 UI CHALLENGES*/
+
+.challenge-relative-wrapper {
+    display: block;
+    cursor: pointer;
+    width: 80%;
+    max-width: 1120px;
+    margin: 120px auto 0;
+}
+
+.challenge-bg {
+    width: 100%;
+    margin: auto;
+}
+
+.challenge-gif {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.challenge-title-wrapper {
+    position: absolute;
+    top: 5%;
+    left: 41%;
+    color: #545454;
+}
+
+#hangover-plus {
+    display: inline-block;
+    font-family: "mulisemibold";
+    font-size: 15px;
+}
+
+.ongoing-project {
+    font-family: 'mulilight';
+    font-size: 11px;
+}
+
+.challenge-title {
+    width: 320px;
+    font-family: 'oswalddemibold';
+    width: 300px;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 5px 0;
+}
+
+.challenge-divider {
+    width: 20px;
+    height: 1px;
+    background-color: #d4d4d4;
+    margin-bottom: 6px;
+}
+
+.challenge-details {
+    color: #ff4e54;
+    font-family: 'muliregular';
+    font-size: 12px;
+}
+
+.challenge-subtitle-wrapper {
+    position: absolute;
+    bottom: 6%;
+    left: 41%;
+    color: #545454;
+    font-size: 14px;
+}
+
+.challenge-subtitle-wrapper span {
+    font-family: 'mulisemibolditalic';
+    font-size: 12px;
+}
+
+/*WORKS*/
+.works-wrapper {
+    max-width: 1120px;
+    width: 80%;
+    margin: 100px auto 0px;
+    overflow: hidden;
+}
+
+.works-invisible {
+    display: none;
+}
+
+.works-unit {
+    width: 28%;
+    float: left;
+    margin-left: 2.66%;
+    margin-right: 2.66%;
+    margin-bottom: 90px;
+    opacity: 0;
+}
+
+.works-unit a {
+    display: inline-block;
+}
+
+.works-unit img {
+    width: 100%;
+    height: auto;
+}
+
+
+.works-hover {
+    opacity: 0;
+    background-color: rgba(0,0,0,.74);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.works-hover-zoom {
+    background-image: url(../image/zoom.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+
+.works-hover-text {
+    opacity: 0.97;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.works-hover-text span {
+    color: #ff4e54;
+}
+
+.works-hover:hover {
+    opacity: .8;
+    transition: .5s;
+}
+
+.works-hover-zoom:hover {
+    background-size: 70%;
+    transition: .5s;
+}
+
+.works-divider {
+    width: 40px;
+    margin: 20px auto 0;
+    height: 1px;
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.works-unit a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.works-unit a:hover {
+    font-family: 'mulisemibold';
+}
+
+/*SOCIAL MEDIA*/
+
+.social-media-wrapper {
+    width: 20px;
+    height: 120px;
+    position: fixed;
+    top:40px;
+    right: 6%;
+    z-index: 999;
+}
+
+.social-media-wrapper a {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.dribbble {
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url(../image/dribbble.png);
+    background-size: contain;
+}
+
+.twitter {
+    width: 14px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-image: url(../image/twitter.png);
+    background-size: contain;
+}
+
+.linkedin {
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url(../image/linkedin.png);
+    background-size: contain;
+}
+
+.email {
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url(../image/email.png);
+    background-size: contain;
+}
+
+.social-monster {
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url(../image/SocialMonster.png);
+    background-size: contain;
+}
+
+/*ABOUT*/
+.about-section-wrapper {
+    width: 40%;
+    margin: 120px auto 300px;
+    font-size: 13px;
+    border-left: 1px solid #f0f0f0;
+    color: #545454;
+}
+
+.about-text-section div {
+    padding-left: 40px;
+}
+
+.about-header {
+    font-family: 'oswalddemibold';
+    font-size: 24px;
+}
+
+.about-divider {
+    background-color: #f0f0f0;
+    height: 1px;
+    width: 100px;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.about-text {
+    line-height: 26px;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+
+.about-text p span {
+    color: #ff4e54;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: 70px;
+    margin-top: 130px;
+    position: relative;
+}
+
+#copyright {
+    margin: 140px auto 0;
+    width: 200px;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.red-cloud-wrapper {
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    top: -30%;
+    left: -10%;
+}
+
+.red-cloud-wrapper:after {
+    padding-top: 17%;
+    display: block;
+    content: '';
+}
+
+.footer-cloud-red {
+    top: 0; bottom: 0; right: 0; left: 0;
+    background-image: url(../image/CloudRed.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 3;
+}
+
+.blue-cloud-wrapper {
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    top: -85%;
+    left: 75%;
+}
+
+.blue-cloud-wrapper:after {
+    padding-top: 18%;
+    display: block;
+    content: '';
+}
+
+.footer-cloud-blue {
+    top: 0; bottom: 0; right: 0; left: 0;
+    background-image: url(../image/CloudBlue.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.footer-decor-wrapper {
+    display: inline-block;;
+    position: absolute;
+}
+
+.footer-decor-wrapper:after {
+    padding-top: 100%;
+    display: block;
+    content: '';
+}
+
+.footer-decor {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
+
+.plus-1-wrapper {
+    width: 1%;
+    min-width: 5px;
+    left: 15%;
+    top: -50%
+}
+
+.footer-plus-1 {
+    background-image: url(../image/PlusOneTwo.png);
+}
+
+.circle-1-wrapper {
+    width: 2%;
+    min-width: 10px;
+    z-index: 2;
+    left: 25%;
+    top: -70%;
+}
+
+.footer-circle-1 {
+    background-image: url(../image/CircleOne.png);
+}
+
+.triangle-1-wrapper {
+    width: 1.5%;
+    min-width: 7px;
+    left: 30%;
+    top: -15%;
+    z-index: 4;
+}
+
+.footer-triangle-1 {
+    background-image: url(../image/TriangleOne.png);
+}
+
+.plus-2-wrapper {
+    width: 1%;
+    min-width: 10px;
+    right: 38%;
+    top: -150%;
+    z-index: 4;
+}
+
+.footer-plus-2 {
+    background-image: url(../image/PlusOneTwo.png);
+}
+
+.circle-2-wrapper {
+    width: 1.5%;
+    min-width: 8px;
+    right: 30%;
+    top: -30%;
+}
+
+.footer-circle-2 {
+    background-image: url(../image/CircleTwo.png);
+}
+
+.plus-3-wrapper {
+    width: 1%;
+    min-width: 5px;
+    right: 25%;
+    top: -90%;
+}
+
+.footer-plus-3 {
+    background-image: url(../image/PlusThree.png);
+}
+
+.monster {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+.monster-orange {
+    width: 26px;
+    height: 28px;
+    background-image: url(../image/MonsterYellow.png);
+    z-index: 5;
+    top: 0%;
+    left: 20%;
+}
+
+.monster-blue {
+    width: 26px;
+    height: 28px;
+    background-image: url(../image/MonsterBlue.png);
+    z-index: 5;
+    top: -11%;
+    right: 18%;
+}
+
+.monster-green {
+    width: 20px;
+    height: 19px;
+    background-image: url(../image/MonsterGreen.png);
+    z-index: 5;
+    top: 0%;
+    right: 28%;
+}
+
+/*Utils*/
+.left-in {
+    -webkit-transform: translateX(-300px);
+    -moz-transform: translateX(-300px);
+    transform: translateX(-300px);
+    opacity: .1;
+
+    -webkit-animation: left-in 0.7s ease forwards;
+    -moz-animation: left-in 0.7s ease forwards;
+    animation: left-in 0.7s ease forwards;
+}
+
+@keyframes left-in {
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@-webkit-keyframes left-in {
+  to { -webkit-transform: translateX(0); opacity: 1; }
+}
+
+@-moz-keyframes left-in {
+  to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+
+.right-in {
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    transform: translateX(300px);
+    opacity: .1;
+
+    -webkit-animation: right-in 0.7s ease forwards;
+    -moz-animation: right-in 0.7s ease forwards;
+    animation: right-in 0.7s ease forwards;
+}
+
+.right-in-2 {
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    transform: translateX(300px);
+    opacity: .1;
+
+    -webkit-animation: right-in 0.7s cubic-bezier(0.5, 1.2, 0.9, 1.2) forwards;
+    -moz-animation: right-in 0.7s cubic-bezier(0.5, 1.2, 0.9, 1.2) forwards;
+    animation: right-in 0.7s cubic-bezier(0.5, 1.2, 0.9, 1.2) forwards;
+}
+
+@keyframes right-in {
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@-webkit-keyframes right-in {
+  to { -webkit-transform: translateX(0); opacity: 1; }
+}
+
+@-moz-keyframes right-in {
+  to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+
+.top-in {
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: .1;
+
+    -webkit-animation: top-in 0.7s cubic-bezier(0.5, 0.1, 1, 1.5) forwards;
+    -moz-animation: top-in 0.7s cubic-bezier(0.5, 0.1, 1, 1.5) forwards;
+    animation: top-in 0.7s cubic-bezier(0.5, 0.1, 1, 1.5) forwards;
+}
+
+@keyframes top-in {
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@-webkit-keyframes top-in {
+  100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes top-in {
+  100% { -moz-transform: translateY(0); opacity: 1; }
+}
+
+.bottom-in {
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: .1;
+
+    -webkit-animation: top-in 0.7s ease forwards;
+    -moz-animation: top-in 0.7s ease forwards;
+    animation: top-in 0.7s ease forwards;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+.logo-red {
+    background-image: url(../image/LogoRed@2x.png);
+}
+.logo-blue {
+    background-image: url(../image/LogoBlue@2x.png);
+}
+.designer-gamer {
+    background-image: url(../image/DesignerGamer@2x.png);
+}
+.cloud-red {
+    background-image: url(../image/CloudRed@2x.png);
+}
+.cloud-blue {
+    background-image: url(../image/CloudBlue@2x.png);
+}
+.plus-1 {
+    background-image: url(../image/PlusOneTwo@2x.png);
+}
+.circle-1 {
+    background-image: url(../image/CircleOne@2x.png);
+}
+.triangle-1 {
+    background-image: url(../image/TriangleOne@2x.png);
+}
+.plus-2 {
+    background-image: url(../image/PlusOneTwo@2x.png);
+}
+.circle-2 {
+    background-image: url(../image/CircleTwo@2x.png);
+}
+.plus-3 {
+    background-image: url(../image/PlusThree@2x.png);
+}
+.dribbble {
+    background-image: url(../image/dribbble@2x.png);
+}
+.twitter{
+    background-image: url(../image/twitter@2x.png);
+}
+.linkedin {
+    background-image: url(../image/linkedin@2x.png);
+}
+.email {
+    background-image: url(../image/email@2x.png);
+}
+.social-monster {
+    background-image: url(../image/SocialMonster@2x.png);
+}
+.monster-orange {
+    background-image: url(../image/MonsterYellow@2x.png);
+}
+.monster-blue {
+    background-image: url(../image/MonsterBlue@2x.png);
+}
+.monster-green {
+    background-image: url(../image/MonsterGreen@2x.png);
+}
+}
+
+@media only screen and (min-width: 1400px) {
+.menu-box {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+.challenge-title {
+    font-size: 24px;
+    transition:.4s;
+}
+.challenge-relative-wrapper {
+    margin: 70px auto 0;
+    transition:.4s;
+}
+}
+
+@media only screen and (max-width: 1050px) {
+    .works-unit {
+    width: 36%;
+    float: left;
+    margin-left: 6.8%;
+    margin-right: 6.8%;
+    transition: .4s;
+    }
+
+    #footer {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+.logo-wrapper {
+    width: 90px;
+    transition: .4s;
+}
+.logo-blue {
+    width: 80px;
+    height: 80px;
+    transition:.4s;
+}
+.logo-red {
+    width: 80px;
+    height: 80px;
+    transition:.4s;
+}
+.designer-gamer {
+    width: 9px;
+    transition:.4s;
+}
+.qiuzaozhang {
+    font-size: 15px;
+    transition: .4s;
+}
+.slogan {
+    width: 400px;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 20px auto 0;
+    transition: .4s;
+}
+.cloud-red {
+    width: 300px;
+    top: 30px;
+    right: 320px;
+    transition: .4s;
+}
+.cloud-blue {
+    width: 350px;
+    top: -24px;
+    right: -190px;
+    transition: .4s;
+}
+.plus-1 {
+    width: 8px;
+    top:-20px;
+    left: -90px;
+    transition: .4s;
+}
+.circle-1 {
+    width: 20px;
+    left: -50px;
+    top: 27px;
+}
+.triangle-1 {
+    width: 13px;
+    left: 0;
+    top: 75px;
+}
+.plus-2 {
+    width: 8px;
+    right: 80px;
+    top: -50px;
+}
+.circle-2 {
+    width: 12px;
+    right: 30px;
+    top:-20px;
+}
+.plus-3 {
+    width: 8px;
+    right: -10px;
+    top: 18px;
+}
+.challenge-title {
+    font-size: 20px;
+    transition:.4s;
+}
+.ongoing-project {
+    display: none;
+}
+.challenge-divider {
+    display: none;
+}
+.challenge-subtitle-wrapper {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.challenge-relative-wrapper{
+    display: none;
+}
+.works-invisible {
+    display: inherit;
+}
+.works-wrapper {
+margin: 80px auto 0px;
+}
+.monster-orange {
+    width: 19px;
+    height: 21px;
+}
+.monster-blue {
+    width: 23px;
+    height: 26px;
+}
+.monster-green {
+    width: 16px;
+    height: 18px;
+    right: 28%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    .social-media-wrapper{
+        display: none;
+    }
+
+    .works-unit {
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 70px;
+    transition: .4s;
+    }
+
+    #copyright {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+.slogan {
+    width: 300px;
+    transition: .4s;
+}
+.cloud-red {
+    right: 260px;
+    transition: .4s;
+}
+.cloud-blue {
+    right: -260px;
+    transition: .4s;
+}
+}
