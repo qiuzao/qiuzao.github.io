@@ -38,6 +38,11 @@ var challenges = [{
 	title: "Winter Hunt",
 	link: "pages/challenges.html#8",
 	week: "Week 8"
+}, {
+	imgsrc: "image/challenges/vs.gif",
+	title: "VarageSale",
+	link: "pages/challenges.html#3",
+	week: "Week 3"
 }];
 
 
