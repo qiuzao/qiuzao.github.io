@@ -45,6 +45,10 @@ var challenges = [{
 	week: "Week 3"
 }];
 
+var gifs = ["../image/coverletter/bulb.gif",
+			"../image/coverletter/customize.gif",
+			"../image/coverletter/pencil.gif",
+			"../image/coverletter/diamond.gif"]
 
 $(function() {
 	randomizeChallengeSection();
@@ -86,6 +90,22 @@ $(function() {
 				el.addClass("bottom-in");
 			};
 		};
+	}
+
+	function restartGif(els) {
+		for (var i = 0; i < els.length; i++) {
+			var el = $(els[i]);
+			if (el.visible(true)) {
+				startGif(el, i);
+			};
+		};
+	}
+
+	function startGif(el, i) {
+		if (el.attr("src")) {
+			return;
+		}
+	    el.attr("src", gifs[i]);
 	}
 
 	function topEffect() {
@@ -152,8 +172,10 @@ $(function() {
 			// detail pages
 			var imgs = $(".image-wrapper > img");
 			var titles = $(".image-wrapper > div.animated");
+			var gifs = $(".gif");
 			bottomIn(imgs);
 			bottomIn(titles);
+			restartGif(gifs);
 		});
 	}
 });
