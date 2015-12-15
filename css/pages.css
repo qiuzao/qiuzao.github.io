@@ -47,7 +47,7 @@ div {
 }
 
 .menu-box {
-    font-family: 'mulilight';
+    font-family: 'muliregular';
     width: 70px;
     height: 60px;
     font-size: 12px;
@@ -178,14 +178,16 @@ div {
 }
 
 .title-description {
-    line-height: 18px;
-    padding: 0 0 50px 20px;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 5px 0 50px 20px;
 }
 
 .title-nav-wrapper {
     overflow: hidden;
     color: #ff4e54;
     padding-left: 20px;
+    font-family: 'mulisemibold';
 }
 
 .title-nav-wrapper a:hover {
