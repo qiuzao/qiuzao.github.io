@@ -159,6 +159,7 @@ div {
    width: 50%;
    margin-right: 15%;
    margin-top: 126px;
+   margin-bottom: 20px;
    color: #1a1a1a;
    overflow: hidden;
 }
@@ -201,6 +202,10 @@ div {
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 8px;
+}
+
+.letter-point a {
+    color: #ff4e54;
 }
 
 .letter-title img {
