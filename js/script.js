@@ -35,7 +35,7 @@ var challenges = [{
 	week: "Week 1"
 }, {
 	imgsrc: "image/challenges/poster.gif",
-	title: "Winter Hunt",
+	title: "Poster Roll",
 	link: "pages/challenges.html#14",
 	week: "Week 14"
 }, {
