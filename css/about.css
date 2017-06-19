@@ -50,7 +50,7 @@ div {
     font-family: 'muliregular';
     width: 70px;
     height: 60px;
-    font-size: 12px;
+    font-size: 14px;
     color: #545454;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 15px;
@@ -150,7 +150,7 @@ div {
     float: left;
     width: 250px;
     color: #545454;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .light-bulb {
@@ -207,7 +207,7 @@ div {
 
 .about-text {
     line-height: 28px;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 100px;
 }
 
@@ -216,11 +216,12 @@ div {
 }
 
 .about-text p span {
-    color: #ff4e54;
+    font-weight: 600;
 }
 
 div .about-title {
-    font-family: 'mulisemibolditalic';
+    font-family: 'mulisemibold';
+    font-size: 18px;
     margin-top: 30px;
 }
 
