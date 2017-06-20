@@ -184,6 +184,10 @@ div {
     padding: 5px 0 50px 20px;
 }
 
+.title-description a {
+    color: #ff4e54; 
+}
+
 .title-nav-wrapper {
     overflow: hidden;
     color: #ff4e54;
@@ -219,11 +223,19 @@ div {
     transition: .4s;
 }
 
-.image-wrapper div {
+.case-title {
     width: 100%;
-    float: left;
-    font-size: 12px;
-    font-family: 'mulisemibolditalic';
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "mulisemibold";
+    color: #545454;
+    margin: 0px auto 20px auto;
+}
+
+.case-text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
     color: #545454;
     margin: 0px auto 20px auto;
 }
@@ -299,10 +311,14 @@ div {
 }
 
 .title-middle-description {
-    font-size: 12px;
+    font-size: 16px;
     width: 70%;
     margin: auto;
-    line-height: 18px;
+    line-height: 28px;
+}
+
+.title-middle-description a {
+    color: #ff4e54; 
 }
 
 .title-middle-divider {
@@ -341,7 +357,7 @@ div {
     background-size: contain;
     background-image: url(../image/MonsterBlue.png);
     position: absolute;
-    right: -60%;
+    right: 30%;
     top: 54px;
 }
 
