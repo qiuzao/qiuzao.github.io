@@ -187,7 +187,6 @@ div .hidden, body .hidden {
     width: 100px;
     font-size: 16px;
     color: #545454;
-    border-bottom: 1px solid #f0f0f0;
     padding-bottom: 15px;
 }
 
@@ -198,7 +197,6 @@ div .hidden, body .hidden {
 .menu-selected {
     font-family: 'mulisemibold';
     color: #ff4e54;
-    border-bottom: 1px solid #ff4e54;
     cursor: inherit;
 }
 

@@ -381,7 +381,6 @@ div .ninja-width-fix {
 .menu-selected {
     cursor: inherit;
     color: #ff4e54;
-    border-bottom: 1px solid #ff4e54;
     font-family: 'mulisemibold';
 }
 
