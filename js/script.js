@@ -31,17 +31,17 @@ $.fn.visible = function(partial) {
 var challenges = [{
 	imgsrc: "image/challenges/BookGuess.gif",
 	title: "Book & Book",
-	link: "pages/challenges.html#1",
+	link: "pages/challenges.html",
 	week: "Week 1"
 }, {
 	imgsrc: "image/challenges/poster.gif",
 	title: "Poster Roll",
-	link: "pages/challenges.html#14",
+	link: "pages/challenges.html",
 	week: "Week 14"
 }, {
 	imgsrc: "image/challenges/vs.gif",
 	title: "VarageSale",
-	link: "pages/challenges.html#3",
+	link: "pages/challenges.html",
 	week: "Week 3"
 }];
 
