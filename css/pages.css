@@ -214,7 +214,6 @@ div {
 }
 
 .image-wrapper img {
-    float: left;
     width: 400px;
     margin-bottom: 50px;
     transition: .4s;
